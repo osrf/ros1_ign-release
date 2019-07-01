@@ -22,5 +22,5 @@ tracks:
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: https://github.com/osrf/ros1_ign-release
+    vcs_uri: https://github.com/osrf/ros1_ign
     version: :{auto}
