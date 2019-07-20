@@ -2,6 +2,17 @@
 Changelog for package ros1_ign_point_cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* 0.5.0
+* Merge pull request `#28 <https://github.com/osrf/ros1_ign_bridge/issues/28>`_ from osrf/pointcloudpacked
+  Bridge point cloud packed
+* Contributors: Nate Koenig
+
+* Merge pull request `#28 <https://github.com/osrf/ros1_ign_bridge/issues/28>`_ from osrf/pointcloudpacked
+  Bridge point cloud packed
+* Contributors: Nate Koenig
+
 0.4.0 (2019-07-16)
 ------------------
 
