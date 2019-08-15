@@ -2,6 +2,9 @@
 Changelog for package ros1_ign_image
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2019-08-15)
+------------------
+
 0.6.3 (2019-08-04)
 ------------------
 * Merge pull request `#36 <https://github.com/osrf/ros1_ign_bridge/issues/36>`_ from osrf/restest_depen_image
