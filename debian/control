@@ -1,0 +1,13 @@
+Source: ros-melodic-ros-ign
+Section: misc
+Priority: extra
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-ign
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ros-ign-bridge, ros-melodic-ros-ign-gazebo-demos, ros-melodic-ros-ign-image, ros-melodic-ros-ign-point-cloud
+Replaces: ros-melodic-ros1-ign
+Description: Meta-package containing interfaces for using ROS with Ignition simulation.
