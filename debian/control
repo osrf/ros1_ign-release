@@ -1,0 +1,13 @@
+Source: ros-melodic-ros-ign-image
+Section: misc
+Priority: extra
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libignition-msgs4-dev, libignition-transport7-dev, ros-melodic-catkin, ros-melodic-image-transport, ros-melodic-ros-ign-bridge, ros-melodic-roscpp, ros-melodic-rostest, ros-melodic-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-ign-image
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-msgs4-dev, libignition-transport7-dev, ros-melodic-image-transport, ros-melodic-ros-ign-bridge, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Replaces: ros-melodic-ros1-ign-image
+Description: Image utilities for Ignition simulation with ROS.
