@@ -1,13 +1,11 @@
-[![Build Status](https://travis-ci.org/osrf/ros_ign.svg?branch=master)](https://travis-ci.org/osrf/ros_ign.svg?branch=master)
+# Image utilities for using ROS and Ignition Transport
 
-# Integration between ROS and Ignition
+This package provides a unidirectional bridge for images from Ignition to ROS.
+The bridge subscribes to Ignition image messages (`ignition::msgs::Image`)
+and republishes them to ROS using [image_transport](http://wiki.ros.org/image_transport).
 
-This repository holds packages that provide integration between
-[ROS](http://www.ros.org/) and [Ignition](https://ignitionrobotics.org):
-
-* `ros_ign`: Metapackage which provides all the other packages.
-* `ros_ign_image`: Transport bridge from Ignition transport to ROS using [image_transport](http://wiki.ros.org/image_transport).
-* `ros_ign_bridge`: Transport bridge between ROS and Ignition transport.
-* `ros_ign_gazebo_demos`: Demos using the ROS-Ignition integration.
-* `ros_ign_point_cloud`: Plugins for publishing ROS point clouds from Ignition Gazebo simulations.
+For compressed images, install
+[compressed_image_transport](http://wiki.ros.org/compressed_image_transport)
+and the bridge will publish `/compressed` images. The same goes for other
+`image_transport` plugins.
 
