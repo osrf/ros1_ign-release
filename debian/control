@@ -1,0 +1,13 @@
+Source: ros-melodic-ros-ign-bridge
+Section: misc
+Priority: extra
+Maintainer: Carlos Agüero <caguero@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libignition-msgs4-dev, libignition-transport7-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-mav-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-rosgraph-msgs, ros-melodic-rostest, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-ign-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-msgs4-dev, libignition-transport7-dev, ros-melodic-geometry-msgs, ros-melodic-mav-msgs, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-rosgraph-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-std-srvs
+Replaces: ros-melodic-ros1-ign-bridge
+Description: Bridge communication between ROS and Ignition Transport
