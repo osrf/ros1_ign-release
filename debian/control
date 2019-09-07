@@ -1,0 +1,13 @@
+Source: ros-melodic-ros-ign-gazebo-demos
+Section: misc
+Priority: extra
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libignition-gazebo2-dev, ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-ign-gazebo-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libignition-gazebo2-dev, ros-melodic-image-transport-plugins, ros-melodic-ros-ign-bridge, ros-melodic-ros-ign-image, ros-melodic-ros-ign-point-cloud, ros-melodic-rqt-image-view, ros-melodic-rqt-plot, ros-melodic-rviz
+Replaces: ros-melodic-ros1-ign-gazebo-demos
+Description: Demos using Ignition Gazebo simulation with ROS.
