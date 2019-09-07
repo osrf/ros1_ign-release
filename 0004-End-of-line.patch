@@ -1,0 +1,25 @@
+From 5414bc8106eed0268d2c2d77d15b8662b083b125 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Sun, 8 Sep 2019 00:21:17 +0200
+Subject: [PATCH 4/4] End of line
+
+---
+ debian/control.em | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/control.em b/debian/control.em
+index 493fb42..a215997 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -11,7 +11,7 @@ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
+ @[if Conflicts]Conflicts: @(', '.join(Conflicts))@\n@[end if]@
+ @[if Replaces]Replaces: @(', '.join(Replaces))@  (<< 0.7.0-2)
+-Breaks: @(', '.join(Replaces))@  (<< 0.7.0-2)@[end if]@
++Breaks: @(', '.join(Replaces))@  (<< 0.7.0-2)@\n@[end if]@
+ Description: @(Description)
+ 
+ Package: @(Package.replace('ros-ign','ros1-ign'))
+-- 
+2.17.1
+
