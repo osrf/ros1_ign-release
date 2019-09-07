@@ -1,0 +1,124 @@
+ros-melodic-ros-ign (0.7.1-8bionic) bionic; urgency=high
+
+  * Add replaces for each package
+  * Rename packages and fix compilation + tests
+    Signed-off-by: Louise Poubel <mailto:louise@openrobotics.org>
+  * Move files ros1 -> ros
+    Signed-off-by: Louise Poubel <mailto:louise@openrobotics.org>
+  * Contributors: Jose Luis Rivero, Louise Poubel
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 05 Sep 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.7.0-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 14 Aug 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.6.3-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Sat, 03 Aug 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.6.2-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Sat, 03 Aug 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.6.1-8bionic) bionic; urgency=high
+
+  * Merge pull request #35 <https://github.com/osrf/ros1_ign_bridge/issues/35> from osrf/image_meta
+    Add ros_ign_image to metapackage
+  * Add ros_ign_image to metapackage
+    Signed-off-by: chapulina <mailto:louise@openrobotics.org>
+    typo
+    Signed-off-by: chapulina <mailto:louise@openrobotics.org>
+  * Contributors: Nate Koenig, chapulina
+
+ -- Louise Poubel <louise@openrobotics.org>  Sat, 03 Aug 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.6.0-8bionic) bionic; urgency=high
+
+  * 0.5.0 partial
+  * 0.5.0
+  * Merge pull request #28 <https://github.com/osrf/ros1_ign_bridge/issues/28> from osrf/pointcloudpacked
+    Bridge point cloud packed
+  * Contributors: Nate Koenig
+  * Merge pull request #28 <https://github.com/osrf/ros1_ign_bridge/issues/28> from osrf/pointcloudpacked
+    Bridge point cloud packed
+  * Contributors: Nate Koenig
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Aug 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.4.0-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 15 Jul 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.3.1-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Sun, 30 Jun 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.3.0-8bionic) bionic; urgency=high
+
+  * 0.2.0
+  * Demos package (#19 <https://github.com/osrf/ros1_ign_bridge/issues/19>)
+    * Start of demos package: camera
+    * IMU
+    * depth camera
+    * magnetometer
+    * lidar, base launch
+    * READMEs, RGBD camera
+    * screenshots
+    * missing IMU
+    * set plugin path env
+    * It's best to always set it
+  * Point clouds for RGBD cameras (#17 <https://github.com/osrf/ros1_ign_bridge/issues/17>)
+    * Beginning of point cloud package
+    * Populating image data, but result is not correct. Must find out where's the source of the problem.
+    * RGB -> BGR: why?
+    * Cleanup code and example
+    * pointcloud -> point_cloud
+    * add keys - how was this working before?
+    * install wget
+    * well, we need ign-gz2 :sweat_smile:
+    * README update
+    * PR feedback
+    * .travis/build: rosdep skip ignition keys (#18 <https://github.com/osrf/ros1_ign_bridge/issues/18>)
+    * .travis/build: rosdep skip ignition keys
+    * Update build
+  * Move package to subfolder, add metapackage (#16 <https://github.com/osrf/ros1_ign_bridge/issues/16>)
+  * Contributors: Nate Koenig, chapulina
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 27 Jun 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.2.2-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.2.1-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 10 May 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.2.0-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 08 May 2019 22:00:00 -0000
+
+ros-melodic-ros-ign (0.1.0-8bionic) bionic; urgency=high
+
+
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 19 Mar 2019 23:00:00 -0000
+
+
