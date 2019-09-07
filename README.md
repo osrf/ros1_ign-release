@@ -1,3 +1,31 @@
+## ros_ign (melodic) - 0.7.1-6
+
+The packages in the `ros_ign` repository were released into the `melodic` distro by running `/usr/bin/bloom-release ros_ign --track melodic_prerelease --rosdistro melodic` on `Sat, 07 Sep 2019 22:12:07 -0000`
+
+These packages were released:
+- `ros_ign`
+- `ros_ign_bridge`
+- `ros_ign_gazebo_demos`
+- `ros_ign_image`
+- `ros_ign_point_cloud`
+
+Version of package(s) in repository `ros_ign`:
+
+- upstream repository: https://github.com/osrf/ros1_ign
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.7.1-5`
+- new version: `0.7.1-6`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## ros_ign (melodic) - 0.7.1-5
 
 The packages in the `ros_ign` repository were released into the `melodic` distro by running `/usr/bin/bloom-release ros_ign --track melodic_prerelease --rosdistro melodic` on `Sat, 07 Sep 2019 21:26:46 -0000`
