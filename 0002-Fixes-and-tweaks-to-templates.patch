@@ -1,4 +1,4 @@
-From b0bcca75ea7cd0f903f2af226093fa5fecd83eca Mon Sep 17 00:00:00 2001
+From 1ae2a555b36943f78bc4d1501a028b46651e5514 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Sat, 7 Sep 2019 02:22:51 +0200
 Subject: [PATCH 2/4] Fixes and tweaks to templates
