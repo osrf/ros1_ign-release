@@ -1,0 +1,26 @@
+From f9b2b8d8b765719897e75b15e1575ff0f47e82e8 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Sat, 7 Sep 2019 23:30:05 +0200
+Subject: [PATCH 3/3] Fix lining in control file
+
+---
+ debian/control.em | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/debian/control.em b/debian/control.em
+index cb8f3b4..493fb42 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -10,7 +10,8 @@ Package: @(Package)
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
+ @[if Conflicts]Conflicts: @(', '.join(Conflicts))@\n@[end if]@
+-@[if Replaces]Replaces: @(', '.join(Replaces))@  (<< 0.7.0-2)\nBreaks: @(', '.join(Replaces))@  (<< 0.7.0-2)@[end if]@
++@[if Replaces]Replaces: @(', '.join(Replaces))@  (<< 0.7.0-2)
++Breaks: @(', '.join(Replaces))@  (<< 0.7.0-2)@[end if]@
+ Description: @(Description)
+ 
+ Package: @(Package.replace('ros-ign','ros1-ign'))
+-- 
+2.17.1
+

@@ -1,7 +1,7 @@
-From 53ec6ed9c517f9befba9f40d14bebe1cef37b44f Mon Sep 17 00:00:00 2001
+From b385d33e2fbc899414f5854db36b3226f60cf01f Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Sat, 7 Sep 2019 02:22:51 +0200
-Subject: [PATCH 2/2] Fixes and tweaks to templates
+Subject: [PATCH 2/3] Fixes and tweaks to templates
 
 ---
  debian/control.em | 7 ++-----
