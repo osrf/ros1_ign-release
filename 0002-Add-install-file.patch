@@ -1,0 +1,20 @@
+From 9dd930c13c75263fd937f0c33725861c82b7d171 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Mon, 9 Sep 2019 18:26:18 +0000
+Subject: [PATCH 2/2] Add install file
+
+---
+ debian/ros-melodic-ros-ign-image.install | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 debian/ros-melodic-ros-ign-image.install
+
+diff --git a/debian/ros-melodic-ros-ign-image.install b/debian/ros-melodic-ros-ign-image.install
+new file mode 100644
+index 0000000..c287734
+--- /dev/null
++++ b/debian/ros-melodic-ros-ign-image.install
+@@ -0,0 +1 @@
++opt/*
+-- 
+2.17.1
+
