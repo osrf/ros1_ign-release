@@ -1,7 +1,7 @@
-From 516406a01d85b8ea30b6ccabe9958bbc77ddf8b6 Mon Sep 17 00:00:00 2001
+From 0252b0bb8a027f3f651cb01fb816c686e274c7ae Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 6 Sep 2019 19:26:01 +0200
-Subject: [PATCH 1/4] Replace metadata for ros_ign
+Subject: [PATCH 1/5] Replace metadata for ros_ign
 
 ---
  debian/control.em | 13 ++++++++++++-

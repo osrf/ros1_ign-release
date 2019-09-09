@@ -1,7 +1,7 @@
-From b03b2a6e4069194ee94d07221605bfbacc0190fa Mon Sep 17 00:00:00 2001
+From 6ccf2e6e703483b2ce196abbbf981b3f12799bd7 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Sat, 7 Sep 2019 23:30:05 +0200
-Subject: [PATCH 3/4] Fix lining in control file
+Subject: [PATCH 3/5] Fix lining in control file
 
 ---
  debian/control.em | 3 ++-
