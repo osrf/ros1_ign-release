@@ -1,7 +1,7 @@
-From 623adc510450ce70180ff5ad0efd4533c2f4d8fe Mon Sep 17 00:00:00 2001
+From dba5422ac211586d88edc8d2185dbfaf41c4d516 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Sun, 8 Sep 2019 00:52:04 +0200
-Subject: [PATCH] Add metadata to proceed with renaming
+Subject: [PATCH 1/2] Add metadata to proceed with renaming
 
 ---
  debian/control.em | 11 ++++++++++-
