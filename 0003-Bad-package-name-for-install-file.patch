@@ -1,7 +1,7 @@
-From 4a467b521b1dd02c06d48ba375b7bf904b04e6f7 Mon Sep 17 00:00:00 2001
+From bd9160d886a21a61441b8ea3f501038f79c777e2 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Mon, 9 Sep 2019 15:53:26 +0000
-Subject: [PATCH 3/3] Bad package name for install file
+Subject: [PATCH 3/4] Bad package name for install file
 
 ---
  debian/ros-melodic-ros-ign-point-cloud.install | 1 +

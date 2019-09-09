@@ -1,7 +1,7 @@
-From 7ac5cf0caeb5765ac04881ce6a825abf00f8c321 Mon Sep 17 00:00:00 2001
+From f7f0097b441592ce65e3b409cdb9ec2ff22f72ff Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Mon, 9 Sep 2019 17:14:52 +0200
-Subject: [PATCH 2/3] Add install file
+Subject: [PATCH 2/4] Add install file
 
 ---
  debian/ros-melodic-ros1-ign-point-cloud.install | 1 +

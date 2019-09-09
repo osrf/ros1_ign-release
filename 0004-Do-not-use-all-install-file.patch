@@ -1,0 +1,20 @@
+From 064b708618ad4ebd96982b5a41376859a2315e3d Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Mon, 9 Sep 2019 16:06:45 +0000
+Subject: [PATCH 4/4] Do not use all install file
+
+---
+ debian/ros-melodic-ros1-ign-point-cloud.install | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 debian/ros-melodic-ros1-ign-point-cloud.install
+
+diff --git a/debian/ros-melodic-ros1-ign-point-cloud.install b/debian/ros-melodic-ros1-ign-point-cloud.install
+deleted file mode 100644
+index c287734..0000000
+--- a/debian/ros-melodic-ros1-ign-point-cloud.install
++++ /dev/null
+@@ -1 +0,0 @@
+-opt/*
+-- 
+2.17.1
+
