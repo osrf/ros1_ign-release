@@ -1,4 +1,4 @@
-From 0252b0bb8a027f3f651cb01fb816c686e274c7ae Mon Sep 17 00:00:00 2001
+From 87e706673e3eb7681a3f07d56a9f7b71e4f60acb Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 6 Sep 2019 19:26:01 +0200
 Subject: [PATCH 1/5] Replace metadata for ros_ign
