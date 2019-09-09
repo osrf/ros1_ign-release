@@ -1,4 +1,4 @@
-From f8cd7cf2d450f7c7cd68a5fc352bad0c70beed46 Mon Sep 17 00:00:00 2001
+From 1213ad494dee4c8a8ddd8c410b8f367f8518bea4 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Sun, 8 Sep 2019 00:53:57 +0200
 Subject: [PATCH] Add metadata to proceed with renaming
