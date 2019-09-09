@@ -1,0 +1,20 @@
+From 17d416fe5a034872d5466ec1980db7c708faa29f Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Mon, 9 Sep 2019 18:25:36 +0000
+Subject: [PATCH 2/2] Add install file
+
+---
+ debian/ros-melodic-ros-ign-bridge.install | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 debian/ros-melodic-ros-ign-bridge.install
+
+diff --git a/debian/ros-melodic-ros-ign-bridge.install b/debian/ros-melodic-ros-ign-bridge.install
+new file mode 100644
+index 0000000..c287734
+--- /dev/null
++++ b/debian/ros-melodic-ros-ign-bridge.install
+@@ -0,0 +1 @@
++opt/*
+-- 
+2.17.1
+
